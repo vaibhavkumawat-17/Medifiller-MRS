@@ -176,6 +176,85 @@ This overview provides a high-level understanding of the application's structure
 
 --- 
 
+## 📂 Repository Structure
+
+```sh
+└── uptane.github.io/
+    ├── .github/
+    │   ├── ISSUE_TEMPLATE/
+    │   │   ├── bug-report.yml
+    │   │   ├── documentation-issue.yml
+    │   │   ├── feature-request.yml
+    │   │   └── other-issues.yml
+    │   ├── broken-link-gha-config.json
+    │   └── workflows/
+    │       ├── argos.yml
+    │       ├── check-broken-links-no-issues.yml
+    │       ├── check-broken-links.yml
+    │       ├── deploy.yml
+    │       └── test_deploy.yml
+    ├── argos/
+    │   ├── playwright.config.js
+    │   ├── screenshot.css
+    │   ├── screenshot.spec.js
+    │   └── utils.js
+    ├── babel.config.js
+    ├── blog/
+    │   ├── 2023-08-26-welcome/
+    │   ├── 2023-10-28-hacktoberfest/
+    │   └── authors.yml
+    ├── docusaurus.config.js
+    ├── learn-more/
+    ├── package.json
+    ├── sidebarLearnMore.js
+    ├── sidebars.js
+    ├── src/
+    │   ├── components/
+    │   │   ├── Adopters/
+    │   │   ├── Features/
+    │   │   ├── Header/
+    │   │   ├── JoinCommunity/
+    │   │   ├── PuttingUptane/
+    │   │   ├── Support/
+    │   │   ├── WhatIsUptane/
+    │   │   └── Workflow/
+    │   ├── css/
+    │   │   └── custom.css
+    │   ├── pages/
+    │   │   ├── index.jsx
+    │   │   └── index.module.css
+    │   └── theme/
+    │       ├── ColorModeToggle/
+    │       └── Footer/
+    ├── versioned_docs/
+    │   ├── version-1.0.0/
+    │   │   ├── deployment/
+    │   │   ├── enhancements/
+    │   │   └── standard/
+    │   ├── version-1.1.0/
+    │   │   ├── deployment/
+    │   │   ├── enhancements/
+    │   │   └── standard/
+    │   ├── version-1.2.0/
+    │   │   ├── deployment/
+    │   │   ├── enhancements/
+    │   │   └── standard/
+    │   └── version-2.0.0/
+    │       ├── deployment/
+    │       ├── enhancements/
+    │       └── standard/
+    ├── versioned_sidebars/
+    │   ├── version-1.0.0-sidebars.json
+    │   ├── version-1.1.0-sidebars.json
+    │   ├── version-1.2.0-sidebars.json
+    │   └── version-2.0.0-sidebars.json
+    ├── versions.json
+    └── yarn.lock
+
+```
+
+---
+
 ## ⚙️ Modules
 
 <details closed><summary>Root</summary>
