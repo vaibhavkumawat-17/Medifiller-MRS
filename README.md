@@ -10,7 +10,7 @@ Join the Medifiller journey and redefine the way you manage and interact with da
 
 <br><br>
 
-[![Image Preview](Home.png)](https://github.com/vaibhavkumawat-17/Medifiller-MRS/blob/main/README.md)
+[![Image Preview](home.png)](https://github.com/vaibhavkumawat-17/Medifiller-MRS/blob/main/README.md)
 
 See it in action [here](https://youtu.be/IP5i7xZXg_Q)! 🌐👉 
 
