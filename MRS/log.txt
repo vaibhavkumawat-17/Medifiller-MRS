@@ -1,0 +1,21 @@
+customer::logged-at::>2023-11-11 21:28:17.898694:: hgWIu/eBhAdnOvkS5XmPZXvsMvVJcqf39nXAULGbIl9BnxEe1DpJ6+OZjUOrCkhFxTM3hPMZ57+CcUg7KzjYRA==
+customer::logged-at::>2023-11-11 21:28:18.646068:: 7PFXt+/gp+R6za37+9P9z4zdFLLGs7wDBuDcU9s4e/M3PtVoTNhBAw35YfumFKoQI5fqnFi/9v6dqllgenbvUA==
+customer::logged-at::>2023-11-11 21:29:11.975940:: 3khppMbFa57ZvadijLb7Ezwa3YcyXKU1MWbuk2nb36BKGqlUVfgffIXYsZgDCIlxIJbxoA8bXRNz2CPAOL8/dg==
+customer::logged-at::>2023-11-11 21:29:12.775815:: S+oJymtr6jv+cLc7HmSXDwjy4FF1tFZAmezcSQdXc3OR50u5W+rihVbUZWKyfZASsDDgtrcaEnROvh3puBqbbQ==
+customer::logged-at::>2023-11-11 21:36:23.284251:: {'usrname': 'User-1', 'email': 'User1@gmail.com', 'pass': 'user1'}
+customer::logged-at::>2023-11-11 21:36:23.310200:: success
+customer::logged-at::>2023-11-11 21:36:23.310200:: User-1
+customer::logged-at::>2023-11-11 21:36:23.310200:: su
+customer::logged-at::>2023-11-11 21:37:07.588876:: [{'instituteID': 'ABC', 'instituteName': 'ABC', 'institute_email': 'ABC@gmail.com', 'pass': 'ABC'}, {'instituteID': 'ABCD', 'instituteName': 'ABCD', 'institute_email': 'ABCD@gmail.com', 'pass': 'ABCD'}]
+institute::logged-at::>2023-11-11 21:37:53.424710:: Ive received the json data
+institute::logged-at::>2023-11-11 21:37:53.424710:: json data successfully checked
+institute::logged-at::>2023-11-11 21:37:53.439734:: Ive reached the data processing
+institute::logged-at::>2023-11-11 21:37:53.439734:: {'instituteID': 'QWERTY', 'instituteName': 'QWERTY', 'institute_email': 'QWERTY@gmail.com', 'pass': 'QWERTY'}
+institute::logged-at::>2023-11-11 21:37:53.448047:: success
+institute::logged-at::>2023-11-11 21:37:53.448047:: Ive processed the data and the response is (True, 'su', 'QWERTY')
+institute::logged-at::>2023-11-11 21:37:53.461452:: Error in getPatient: 'QWERTY'
+institute::logged-at::>2023-11-11 21:37:53.497009:: Error in getPatient: 'QWERTY'
+customer::logged-at::>2023-11-11 21:38:13.727873:: [{'instituteID': 'ABC', 'instituteName': 'ABC', 'institute_email': 'ABC@gmail.com', 'pass': 'ABC'}, {'instituteID': 'ABCD', 'instituteName': 'ABCD', 'institute_email': 'ABCD@gmail.com', 'pass': 'ABCD'}, {'instituteID': 'QWERTY', 'instituteName': 'QWERTY', 'institute_email': 'QWERTY@gmail.com', 'pass': 'QWERTY'}]
+institute::logged-at::>2023-11-11 21:38:27.053188:: Error in getPatient: 'QWERTY'
+customer::logged-at::>2023-11-11 21:38:27.053836:: adding to institute=> success
+customer::logged-at::>2023-11-11 21:38:27.069995:: [{'instituteID': 'ABC', 'instituteName': 'ABC', 'institute_email': 'ABC@gmail.com', 'pass': 'ABC'}, {'instituteID': 'ABCD', 'instituteName': 'ABCD', 'institute_email': 'ABCD@gmail.com', 'pass': 'ABCD'}, {'instituteID': 'QWERTY', 'instituteName': 'QWERTY', 'institute_email': 'QWERTY@gmail.com', 'pass': 'QWERTY'}]

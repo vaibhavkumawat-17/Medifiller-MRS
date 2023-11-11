@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Form</title>
+    <style>
+        :root{
+            --primary-color: Black;
+            --secondary-color: rgb(79, 79, 79);
+        }
+
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            height: 100vh; 
+        }
+
+        .body{
+            border: solid 1px;
+            border-color: var(--primary-color);
+            border-radius: 30px;
+            padding: 20px;
+        }
+        
+        ul{
+            list-style: none;
+        }
+
+        table td{
+            color: var(--primary-color);
+            font-size: 18px;
+        }
+
+        table h2{
+            color: var(--primary-color);
+            text-align: center;
+            padding-top:20px;
+            padding-bottom: 10px;
+        }
+
+        h3{
+            color: var(--primary-color);
+        }
+
+        table h3{
+            color: var(--secondary-color);
+            padding-top:20px;
+            padding-bottom: 10px;
+        }
+
+        .fields{
+            color: var(--secondary-color);
+            font-size: larger;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .ui.select.dropdown{
+            width: 100%;
+            border-color: var(--secondary-color);
+        }
+
+
+        .ui.input input, .ui.input textarea{
+            border-color: var(--secondary-color);
+        }
+
+        .ui.basic.button{
+            border: solid 1px var(--secondary-color);;
+            margin-top: 30px;
+            margin-right: 90%;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="form">
+        <table>
+            <tr class="sHead">
+                <td colspan="4"><h2 style="text-align: center;">Medical Admission Form</h2></td>
+            </tr>
+            <tr>
+                <td>Registration No:</td>
+                <td class="fields" id="regNo" colspan="3">{{ dat.regNo }}</td>
+            </tr>
+            <tr class="heads">
+                <td colspan="4"><h3>Patient Information</h3></td>
+            </tr>
+            <tr>
+                <td>Full Name:</td>
+                <td class="fields" id="fName">{{ dat.fName }}</td>
+                <td>Date Of Birth:</td>
+                <td class="fields" id="dob">{{ dat.dob }}</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Gender:</td>
+                <td rowspan="4" class="fields" id="gender">{{ dat.gender }}</td>
+            </tr>
+            <tr>
+                <td>Phone Number:</td>
+                <td class="fields" id="phoneN">{{ dat.phoneN }}</td>
+            </tr>
+            <tr>
+                <td>Emergency Contact:</td>
+                <td class="fields" id="eContact">{{ dat.eContact }}</td>
+            </tr>
+            <tr>
+                <td>Blood Group</td>
+                <td class="fields" id="bg">{{ dat.bg }}</td>
+            </tr>
+            <tr>
+                <td>Email Address:</td>
+                <td colspan="3" class="fields" id="email">{{ dat.email }}</td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td colspan="3" class="fields" id="address">{{ dat.address }}</td>
+            </tr>
+            <tr class="heads">
+                <td colspan="4"><h3>Medical History</h3></td>
+            </tr>
+            <tr>
+                <td>Allergies:</td>
+                <td class="fields" id="Allergies">{{ dat.Allergies }}</td>
+                <td>Current Medications:</td>
+                <td class="fields" id="cMedications">{{ dat.cMedications }}</td>
+            </tr>
+            <tr>
+                <td>Past Medical Conditions:</td>
+                <td class="fields" id="pmc">{{ dat.pmc }}</td>
+                <td>Family Medical Conditions:</td>
+                <td class="fields" id="fmc">{{ dat.fmc }}</td>
+            </tr>
+            <tr>
+                <td>Primary Care Physician:</td>
+                <td class="fields" id="pcp">{{ dat.pcp }}</td>
+            </tr>
+            <tr class="heads">
+                <td colspan="4"><h3>Insurance Information</h3></td>
+            </tr>
+            <tr>
+                <td>Insurance Provider:</td>
+                <td class="fields" id="ip">{{ dat.ip }}</td>
+                <td>Policy Number:</td>
+                <td class="fields" id="pn">{{ dat.pn }}</td>
+            </tr>
+            <tr>
+                <td>Group Number:</td>
+                <td class="fields" id="gn">{{ dat.gn }}</td>
+            </tr>
+            <tr class="heads">
+                <td colspan="4"><h3>Emergency Contact:</h3></td>
+            </tr>
+            <tr>
+                <td>Phone Number:</td>
+                <td class="fields" id="pne">{{ dat.pne }}</td>
+                <td>Relationship to The Patient:</td>
+                <td class="fields" id="rtp">{{ dat.rtp }}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>

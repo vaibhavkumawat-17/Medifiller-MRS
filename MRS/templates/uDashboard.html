@@ -1,0 +1,445 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Health | Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="/static/css/assets/img/favicon.ico">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="/static/css/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/static/css/assets/css/slicknav.css">
+    <link rel="stylesheet" href="/static/css/assets/css/flaticon.css">
+    <link rel="stylesheet" href="/static/css/assets/css/gijgo.css">
+    <link rel="stylesheet" href="/static/css/assets/css/animate.min.css">
+    <link rel="stylesheet" href="/static/css/assets/css/animated-headline.css">
+    <link rel="stylesheet" href="/static/css/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="/static/css/assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="/static/css/assets/css/themify-icons.css">
+    <link rel="stylesheet" href="/static/css/assets/css/slick.css">
+    <link rel="stylesheet" href="/static/css/assets/css/nice-select.css">
+    <link rel="stylesheet" href="/static/css/assets/css/style.css">
+    <link rel="stylesheet" href="/static/css/uDashboard.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.3/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.3/dist/semantic.min.js"></script>
+    <style>
+        :root {
+            --primary-color: rgb(102, 135, 2);
+            --secondary-color:rgb(126, 168, 2);
+        }
+
+        /*.main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }*/
+
+        .body {
+            border: solid 1px;
+            border-color: var(--primary-color);
+            border-radius: 30px;
+            padding: 20px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        table td {
+            color: var(--primary-color);
+        }
+
+        table h2 {
+            color: var(--primary-color);
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: var(--primary-color);
+        }
+
+        table h3 {
+            color: var(--secondary-color);
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+
+        .fields {
+            color: var(--secondary-color);
+            font-size: larger;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .ui.select.dropdown {
+            width: 100%;
+            border-color: var(--secondary-color);
+        }
+
+
+        .ui.input input,
+        .ui.input textarea {
+            border-color: var(--secondary-color);
+        }
+
+        .ui.buttons{
+            margin-left: 4  0px;
+        }
+
+        .ui.basic.button {
+            border: solid 1px var(--secondary-color);
+            margin-top: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- ? Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="/static/css/assets/img/logo/loder.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+    <header>
+        <!--? Header Start -->
+        <div class="header-area">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <!-- Logo -->
+                        <div class="col-xl-2 col-lg-2 col-md-1">
+                            <div class="logo">
+                                <a href="index"><img src="/static/css/assets/img/logo/logo.png" alt=""
+                                        height="50px"></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-10 col-lg-10 col-md-10">
+                            <div class="menu-main d-flex align-items-center justify-content-end">
+                                <!-- Main-menu -->
+                                <div class="main-menu f-right d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a href="/index">Home</a></li>
+                                            <li><a href="/about">About</a></li>
+                                            <li><a href="/services">Services</a></li>
+
+                                            <li>
+                                                <div class="ui floating dropdown button">
+                                                    <div class="text">Profile</div>
+                                                    <i class="dropdown icon"></i>
+                                                    <div class="menu">
+                                                        <a class="item" href="#"><i
+                                                                class="circular olive user icon"></i> User
+                                                            Dashboard</a>
+                                                        <a class="item" href="/logout"><i
+                                                                class="circular olive users icon"></i> Log-Out</a>
+                                                    </div>
+                                                </div>
+                                                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                                                <script
+                                                    src="https://cdnjs.cloudflare.com/ajax/libs/fomantic-ui/2.8.8/semantic.min.js"></script>
+                                                <script>
+                                                    $('.ui.dropdown').dropdown({
+                                                        action: 'hide'
+                                                    });
+                                                </script>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="header-right-btn f-right d-none d-lg-block ml-15">
+                                    <a href="#" class="btn header-btn">Make an Appointment</a>
+                                </div> -->
+
+                        <!-- Mobile Menu -->
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+    </header>
+    <div class="panels">
+        <div class="left-panel">
+            <div class="left">
+                <div class="form">
+                    <table>
+                        <tr class="sHead">
+                            <td colspan="4"><h2 style="text-align: center;">Medical Admission Form</h2></td>
+                        </tr>
+                        <tr>
+                            <td>Registration No:</td>
+                            <td class="fields" id="regNo" colspan="3">{{ dat.regNo }}</td>
+                        </tr>
+                        <tr class="heads">
+                            <td colspan="4"><h3>Patient Information</h3></td>
+                        </tr>
+                        <tr>
+                            <td>Full Name:</td>
+                            <td class="fields" id="fName">{{ dat.fName }}</td>
+                            <td>Date Of Birth:</td>
+                            <td class="fields" id="dob">{{ dat.dob }}</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="4">Gender:</td>
+                            <td rowspan="4" class="fields" id="gender">{{ dat.gender }}</td>
+                        </tr>
+                        <tr>
+                            <td>Phone Number:</td>
+                            <td class="fields" id="phoneN">{{ dat.phoneN }}</td>
+                        </tr>
+                        <tr>
+                            <td>Emergency Contact:</td>
+                            <td class="fields" id="eContact">{{ dat.eContact }}</td>
+                        </tr>
+                        <tr>
+                            <td>Blood Group</td>
+                            <td class="fields" id="bg">{{ dat.bg }}</td>
+                        </tr>
+                        <tr>
+                            <td>Email Address:</td>
+                            <td colspan="3" class="fields" id="email">{{ dat.email }}</td>
+                        </tr>
+                        <tr>
+                            <td>Address:</td>
+                            <td colspan="3" class="fields" id="address">{{ dat.address }}</td>
+                        </tr>
+                        <tr class="heads">
+                            <td colspan="4"><h3>Medical History</h3></td>
+                        </tr>
+                        <tr>
+                            <td>Allergies:</td>
+                            <td class="fields" id="Allergies">{{ dat.Allergies }}</td>
+                            <td>Current Medications:</td>
+                            <td class="fields" id="cMedications">{{ dat.cMedications }}</td>
+                        </tr>
+                        <tr>
+                            <td>Past Medical Conditions:</td>
+                            <td class="fields" id="pmc">{{ dat.pmc }}</td>
+                            <td>Family Medical Conditions:</td>
+                            <td class="fields" id="fmc">{{ dat.fmc }}</td>
+                        </tr>
+                        <tr>
+                            <td>Primary Care Physician:</td>
+                            <td class="fields" id="pcp">{{ dat.pcp }}</td>
+                        </tr>
+                        <tr class="heads">
+                            <td colspan="4"><h3>Insurance Information</h3></td>
+                        </tr>
+                        <tr>
+                            <td>Insurance Provider:</td>
+                            <td class="fields" id="ip">{{ dat.ip }}</td>
+                            <td>Policy Number:</td>
+                            <td class="fields" id="pn">{{ dat.pn }}</td>
+                        </tr>
+                        <tr>
+                            <td>Group Number:</td>
+                            <td class="fields" id="gn">{{ dat.gn }}</td>
+                        </tr>
+                        <tr class="heads">
+                            <td colspan="4"><h3>Emergency Contact:</h3></td>
+                        </tr>
+                        <tr>
+                            <td>Phone Number:</td>
+                            <td class="fields" id="pne">{{ dat.pne }}</td>
+                            <td>Relationship to The Patient:</td>
+                            <td class="fields" id="rtp">{{ dat.rtp }}</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="align">
+                    <div class="ui buttons">
+                        <div class="ui basic button"><a href="{{ url_for('formRender') }}">Edit</a></div>
+                        <div class="ui basic button"><a href="{{ url_for('pdf_download') }}">Save pdf</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-panel">
+            <div class="right">
+                <div class="ui icon input" style="display: flex; width: 50%; position: relative; left:50%; margin-bottom:10px;">
+                    <input type="text" placeholder="Search..." id="search">
+                    <button style="background-color: rgb(196, 192, 192); border:none;" onclick="sendSearch()"><i class="search icon"></i></button>
+                </div>
+                <div class="ui scrolling container">
+                    <div class="ui container seg" style="background-color: white;">
+                        <div class="ui horizontal equal width segments">
+                            <div class="ui segment">
+                                <h3>Institute ID</h3>
+                            </div>
+                            <div class="ui segment">
+                                <h3>Institute Name</h3>
+                            </div>
+                            <div class="ui segment">
+                                <h3>Add</h3>
+                            </div>
+                        </div>
+                        <div id="dashboard-content">    
+                            {% for i in listLen %}
+                            <div class="ui horizontal equal width segments">
+                                <div class="ui segment"><div class="fields">{{ instituteList[i]["instituteID"] }}</div></div>
+                                <div class="ui segment"><div class="fields">{{ instituteList[i]["instituteName"] }}</div></div>
+                                <div class="ui segment"><div class="fields"><a href="{{ url_for('addToInstitute', iid=instituteList[i]['instituteID']) }}">Add</a></div></div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <pre>
+
+
+
+
+
+
+
+
+
+        </pre>
+
+    <!--? About Law Start-->
+    <section class="about-low-area mt-30">
+        <div class="container">
+            <div class="about-cap-wrapper">
+                <div class="row">
+                    <div class="col-xl-5  col-lg-6 col-md-10 offset-xl-1">
+                        <div class="about-caption mb-50">
+                            <!-- Section Tittle -->
+                            <div class="section-tittle mb-35">
+                                <h2>"Keeping Your Health on File, Not on Hold."</h2>
+                            </div>
+                            <p>Your Health, Your Data, Your Control</p>
+                            <a href="/service" class="border-btn">Check Out Our Plans Now</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <!-- about-img -->
+                        <div class="about-img">
+                            <div class="about-font-img">
+                                <img src="/static/css/assets/img/gallery/about2.png" alt="" style="border-radius:0px 0px 0px 80px;" height="550px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Law End-->
+    </main>
+    <footer>
+        <div class="footer-wrappr section-bg3" data-background="/static/css/assets/img/gallery/footer-bg.png">
+            <div class="footer-area footer-padding ">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-xl-8 col-lg-8 col-md-6 col-sm-12">
+                            <div class="single-footer-caption mb-50">
+                                <!-- logo -->
+                                <div class="footer-logo mb-25">
+                                    <a href="index"><img src="/static/css/assets/img/logo/logo.png" alt=""
+                                            height="50px"></a>
+                                </div>
+                                <div class="header-area">
+                                    <div class="main-header main-header2">
+                                        <div class="menu-main d-flex align-items-center justify-content-start">
+                                            <!-- Main-menu -->
+
+                                        </div>
+                                    </div>
+                                    <!-- social -->
+                                    <div class="footer-social mt-50">
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                    </div>
+
+                                    <pre>
+
+
+                                <p>Privacy Policy | Terms of Service | © 2023 Medifiller. All rights reserved.</p>
+                                </pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </footer>
+
+    <div class="ui center aligned container">
+        <img src="/static/img/apollo.png" alt="" height="50px">
+    </div>
+
+    <!-- Scroll Up -->
+    <div id="back-top">
+        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+    </div>
+
+    <!-- JS here -->
+
+    <script src="/static/css/assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="/static/css/assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="/static/css/assets/js/popper.min.js"></script>
+    <script src="/static/css/assets/js/bootstrap.min.js"></script>
+    <!-- Jquery Mobile Menu -->
+    <script src="/static/css/assets/js/jquery.slicknav.min.js"></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="/static/css/assets/js/owl.carousel.min.js"></script>
+    <script src="/static/css/assets/js/slick.min.js"></script>
+    <!-- One Page, Animated-HeadLin -->
+    <script src="/static/css/assets/js/wow.min.js"></script>
+    <script src="/static/css/assets/js/animated.headline.js"></script>
+    <script src="/static/css/assets/js/jquery.magnific-popup.js"></script>
+
+    <!-- Date Picker -->
+    <script src="/static/css/assets/js/gijgo.min.js"></script>
+    <!-- Nice-select, sticky -->
+    <script src="/static/css/assets/js/jquery.nice-select.min.js"></script>
+    <script src="/static/css/assets/js/jquery.sticky.js"></script>
+
+    <!-- counter , waypoint,Hover Direction -->
+    <script src="/static/css/assets/js/jquery.counterup.min.js"></script>
+    <script src="/static/css/assets/js/waypoints.min.js"></script>
+    <script src="/static/css/assets/js/jquery.countdown.min.js"></script>
+    <script src="/static/css/assets/js/hover-direction-snake.min.js"></script>
+
+    <!-- contact js -->
+    <script src="/static/css/assets/js/contact.js"></script>
+    <script src="/static/css/assets/js/jquery.form.js"></script>
+    <script src="/static/css/assets/js/jquery.validate.min.js"></script>
+    <script src="/static/css/assets/js/mail-script.js"></script>
+    <script src="/static/css/assets/js/jquery.ajaxchimp.min.js"></script>
+
+    <!-- Jquery Plugins, main Jquery -->
+    <script src="/static/css/assets/js/plugins.js"></script>
+    <script src="/static/css/assets/js/main.js"></script>
+    <script src="/static/js/iDashboard.js"></script>
+
+</body>
+
+</html>

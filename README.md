@@ -8,6 +8,27 @@ Join the Medifiller journey and redefine the way you manage and interact with da
 
 ---
 
+<br><br>
+
+[![Image Preview](Home.png)](https://github.com/vaibhavkumawat-17/Medifiller-MRS/blob/main/README.md)
+
+See it in action [here](https://youtu.be/IP5i7xZXg_Q)! 🌐👉 
+
+<br><br>
+
+<div align="center">
+<h1 align="center">
+
+<p align="center">
+<img src="https://img.shields.io/badge/Python-3776AB.svg?style&logo=Python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/Markdown-000000.svg?style&logo=Markdown&logoColor=white" alt="Markdown" />
+</p>
+<img src="https://img.shields.io/github/license/vaibhavkumawat-17/Medifiller-MRS?style&color=5D6D7E" alt="GitHub license" />
+<img src="https://img.shields.io/github/last-commit/vaibhavkumawat-17/Medifiller-MRS?style&color=5D6D7E" alt="git-last-commit" />
+<img src="https://img.shields.io/github/commit-activity/m/vaibhavkumawat-17/Medifiller-MRS?style&color=5D6D7E" alt="GitHub commit activity" />
+<img src="https://img.shields.io/github/languages/top/vaibhavkumawat-17/Medifiller-MRS?style&color=5D6D7E" alt="GitHub top language" />
+</div>
+
 ## 📖 Table of Contents
 
 - [📖 Table of Contents](#-table-of-contents)
@@ -15,7 +36,7 @@ Join the Medifiller journey and redefine the way you manage and interact with da
 - [📦 Features](#-features)
 - [📂 Repository Structure](#-repository-structure)
 - [⚙️ Modules](#-modules)
-- [How Does 💻 medifiller.py Work?](#how-does-medifillerpy-work)
+- [How Does 💻 medifiller.py Work?](#-how-does-medifillerpy-work)
 - [🚀 Getting Started](#-getting-started)
   - [Prerequisites ✅](#-prerequisites-)
   - [Install Dependencies 📦](#-step-3-install-dependencies-)
@@ -161,7 +182,7 @@ This overview provides a high-level understanding of the application's structure
 
 | File                                                                                                   | Summary          |
 | ------------------------------------------------------------------------------------------------------ | ---------------- |
-| [medifiller.py](https://github.com/vaibhavkumawat-17/Vab-AI/blob/main/app.py) | Source Code File |
+| [medifiller.py](https://github.com/vaibhavkumawat-17/Medifiller-MRS/blob/main/app.py) | Source Code File |
 
 </details>
 
